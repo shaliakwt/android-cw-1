@@ -1,6 +1,7 @@
 public class HelloWorld{
 
      public static void main(String []args){
+        System.out.println("Hello World");
         
         int a = 15;
         int b = 30;
@@ -8,7 +9,7 @@ public class HelloWorld{
         
         int x = b + a;
         System.out.println(x);
-        int y = b - a;
+        int y = b * a;
         System.out.println(y);
         
         boolean z = x == y;
